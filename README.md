@@ -8,3 +8,9 @@
 1. 고차함수 화이트보드 구현 후 설명
 
 ## 2회차 181229
+
+나온 질문들
+1. 해커톤에 대한 경험적인 질문
+1. 브라우저 주소창에 url을 입력하였을때부터 웹페이지로 노출될때까지의 과정
+1. statement, expression의 차이점
+1. statement, expression에서의 comma와 semicolon 문법
