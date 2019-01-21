@@ -17,3 +17,28 @@
 1. 브라우저 주소창에 url을 입력하였을때부터 웹페이지로 노출될때까지의 과정
 1. statement, expression의 차이점
 1. statement, expression에서의 comma와 semicolon 문법
+
+## 3회차 190118
+
+나온 질문들
+1. 싱글 스레드와 멀티 스레드의 차이
+1. ==, ===의 차이점
+1. for 문제
+~~~
+for (var i = 0; i < 2; i++) {
+    setTimeout(()=>console.log(i), 0);
+}
+
+for (let j = 0; j < 2; j++) {
+    setTimeout(()=>console.log(i), 0);
+}
+
+for (let i = 0; i < 2; i++) {
+    setTimeout(()=>console.log(i), 0);
+    i++;
+}
+
+for (let i = (setTimeout(()=>console.log(i), 0)); i < 2; i++) {
+    i++;
+}
+~~~
